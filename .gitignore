@@ -1,0 +1,6 @@
+# file data 
+*.zip
+
+# file model or file data object
+*.t7 
+
