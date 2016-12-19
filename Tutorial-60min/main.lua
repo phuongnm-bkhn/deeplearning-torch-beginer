@@ -67,7 +67,7 @@ net:add(nn.LogSoftMax())                     -- converts the output to a log-pro
 criterion = nn.ClassNLLCriterion()
 
 -- 4 train 
-maxIter = 5
+maxIter = 100
 trainer = nn.StochasticGradient(net, criterion)
 trainer.learningRate = 0.001
 trainer.maxIteration = maxIter -- just do 5 epochs of training.
